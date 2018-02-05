@@ -34,7 +34,7 @@ function aboutContent() {
             as part of their Molecular Bioinformatics Program.
           </p>
           <p className="measure">
-            Apart from his professional pursuits, Dr. Graham enjoys eating
+            Apart from his purrfessional pursuits, Dr. Graham enjoys eating
             lettuce, practicing judo with his partner Ned the Cat, and
             volunteering with his local shelter for lost puppies.
           </p>
