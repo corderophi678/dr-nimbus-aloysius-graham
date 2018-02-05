@@ -7,7 +7,11 @@ export function CV(props) {
       sectionId="cv"
       bg="bg-green"
       sectionLabel="CV"
-      render={() => <p>This lovely cat's CV goes here, See?</p>}
+      render={cvContents}
     />
   )
+}
+
+function cvContents() {
+  return <p>This lovely cat's CV goes here, See?</p>
 }

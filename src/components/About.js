@@ -7,7 +7,39 @@ export function About(props) {
       sectionId="about"
       bg="bg-yellow"
       sectionLabel="About"
-      render={() => <p>This lovely cat's bio is here, See?</p>}
+      render={aboutContent}
     />
+  )
+}
+
+function aboutContent() {
+  return (
+    <React.Fragment>
+      <div className="flex-ns flex-row justify-around">
+        <div>
+          <p className="measure">
+            Dr. Nimbus Aloysius Graham is a world-reknowned concert violinist
+            and molecular biologist. Dr. Graham (or NAG as he's known by his
+            friends and colleagues) has been a guest performer in orchestras all
+            over the world. Most recently, he has been a guest performer with
+            the Marseille Symphony Orchatstra, prior to which he has performed
+            with, among others, The American Catservatory, L'Orchestre
+            Purrisien, and The Meowscow Philharmonic.
+          </p>
+        </div>
+        <div>
+          <p className="measure">
+            When not practicing the violin, Dr. Graham holds a research position
+            under the auspices of the Department of Biology at Furman College,
+            as part of their Molecular Bioinformatics Program.
+          </p>
+          <p className="measure">
+            Apart from his professional pursuits, Dr. Graham enjoys eating
+            lettuce, practicing judo with his partner Ned the Cat, and
+            volunteering with his local shelter for battered fish sticks.
+          </p>
+        </div>
+      </div>
+    </React.Fragment>
   )
 }

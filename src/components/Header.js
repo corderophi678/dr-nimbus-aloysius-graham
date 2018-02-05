@@ -2,7 +2,7 @@ import React from 'react'
 
 export function Header() {
   return (
-    <header className="bg-white-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
+    <header className="bg-white-90 fixed w-100 ph3 pv3 pv4-ns ph4-m ph5-l z-1">
       <nav className="f6 fw6 ttu tracked">
         <a className="link dim black dib mr3" href="#top" title="Home">
           Home

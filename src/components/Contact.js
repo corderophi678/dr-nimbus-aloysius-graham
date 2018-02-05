@@ -7,7 +7,26 @@ export function Contact(props) {
       sectionId="contact"
       bg="bg-pink"
       sectionLabel="Contact"
-      render={() => <p>This lovely cat's contact details goes here, See?</p>}
+      render={contactContents}
     />
+  )
+}
+
+function contactContents() {
+  return (
+    <React.Fragment>
+      <div className="flex-ns flex-row justify-around">
+        <div>
+          <p className="measure">
+            :email: cat@thisisnotarealemailaddress.com
+          </p>
+        </div>
+        <div>
+          <p className="measure">
+            :twitter: @thisisnotarealtwitterhandle
+          </p>
+        </div>
+      </div>
+    </React.Fragment>
   )
 }
