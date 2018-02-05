@@ -36,7 +36,7 @@ function aboutContent() {
           <p className="measure">
             Apart from his professional pursuits, Dr. Graham enjoys eating
             lettuce, practicing judo with his partner Ned the Cat, and
-            volunteering with his local shelter for battered fish sticks.
+            volunteering with his local shelter for lost puppies.
           </p>
         </div>
       </div>
