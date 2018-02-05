@@ -18,12 +18,12 @@ function contactContents() {
       <div className="flex-ns flex-row justify-around">
         <div>
           <p className="measure">
-            :email: cat@thisisnotarealemailaddress.com
+            <span role="img" alt="email emoji">📧</span> cat@thisisnotarealemailaddress.com
           </p>
         </div>
         <div>
           <p className="measure">
-            :twitter: @thisisnotarealtwitterhandle
+            <span role="img" alt="bird emoji">🐦</span> @thisisnotarealtwitterhandle
           </p>
         </div>
       </div>

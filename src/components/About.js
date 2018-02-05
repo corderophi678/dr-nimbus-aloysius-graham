@@ -17,7 +17,7 @@ function aboutContent() {
     <React.Fragment>
       <div className="flex-ns flex-row justify-around">
         <div>
-          <p className="measure">
+          <p className="measure mh1">
             Dr. Nimbus Aloysius Graham is a world-reknowned concert violinist
             and molecular biologist. Dr. Graham (or NAG as he's known by his
             friends and colleagues) has been a guest performer in orchestras all
@@ -28,9 +28,9 @@ function aboutContent() {
           </p>
         </div>
         <div>
-          <p className="measure">
+          <p className="measure mh1">
             When not practicing the violin, Dr. Graham holds a research position
-            under the auspices of the Department of Biology at Furman College,
+            under the auspices of the Department of Biology at William and Hairy College,
             as part of their Molecular Bioinformatics Program.
           </p>
           <p className="measure">
